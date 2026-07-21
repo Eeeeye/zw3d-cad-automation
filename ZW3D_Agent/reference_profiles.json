@@ -1,0 +1,154 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-05T10:18:41.254458+00:00",
+  "sample_dir": "C:\\Users\\Ey\\Desktop\\claude\\AI-ZW260403",
+  "samples": {
+    "TZ-QT-006779": {
+      "sample": "TZ-QT-006779",
+      "drawing_path": "C:\\Users\\Ey\\Desktop\\claude\\AI-ZW260403\\TZ-QT-006779.Z3DRW",
+      "part_path": "C:\\Users\\Ey\\Desktop\\claude\\AI-ZW260403\\TZ-QT-006779.Z3PRT",
+      "paper": "A4(V)",
+      "bbox": {
+        "x": 19.5,
+        "y": 2.0,
+        "z": 32.5
+      },
+      "profile": "plate_like",
+      "base_view": "front",
+      "counts": {
+        "base_views": 1,
+        "project_views": 3,
+        "section_views": 0,
+        "definition_views": 1,
+        "total_dimensions": 4,
+        "annotated_views": 3
+      },
+      "views": [
+        {
+          "type": "base",
+          "x": 63.8,
+          "y": 205.6,
+          "dimensions": 2
+        },
+        {
+          "type": "project",
+          "x": 63.8,
+          "y": 164.5,
+          "dimensions": 0
+        },
+        {
+          "type": "project",
+          "x": 106.4,
+          "y": 205.6,
+          "dimensions": 1
+        },
+        {
+          "type": "project",
+          "x": 163.6,
+          "y": 205.6,
+          "dimensions": 1
+        }
+      ]
+    },
+    "TZ-TP-000633": {
+      "sample": "TZ-TP-000633",
+      "drawing_path": "C:\\Users\\Ey\\Desktop\\claude\\AI-ZW260403\\TZ-TP-000633.Z3DRW",
+      "part_path": "C:\\Users\\Ey\\Desktop\\claude\\AI-ZW260403\\TZ-TP-000633.Z3PRT",
+      "paper": "A3(H)",
+      "bbox": {
+        "x": 88.9,
+        "y": 1.02,
+        "z": 46.4
+      },
+      "profile": "plate_like",
+      "base_view": "front",
+      "counts": {
+        "base_views": 1,
+        "project_views": 3,
+        "section_views": 0,
+        "definition_views": 0,
+        "total_dimensions": 18,
+        "annotated_views": 3
+      },
+      "views": [
+        {
+          "type": "base",
+          "x": 119.4,
+          "y": 186.5,
+          "dimensions": 7
+        },
+        {
+          "type": "project",
+          "x": 119.4,
+          "y": 256.8,
+          "dimensions": 0
+        },
+        {
+          "type": "project",
+          "x": 210.0,
+          "y": 186.5,
+          "dimensions": 1
+        },
+        {
+          "type": "project",
+          "x": 309.9,
+          "y": 186.5,
+          "dimensions": 10
+        }
+      ]
+    },
+    "TZ-ZJ-011571": {
+      "sample": "TZ-ZJ-011571",
+      "drawing_path": "C:\\Users\\Ey\\Desktop\\claude\\AI-ZW260403\\TZ-ZJ-011571.Z3DRW",
+      "part_path": "C:\\Users\\Ey\\Desktop\\claude\\AI-ZW260403\\TZ-ZJ-011571.Z3PRT",
+      "paper": "A3(H)",
+      "bbox": {
+        "x": 57.56,
+        "y": 15.5,
+        "z": 31.7
+      },
+      "profile": "stepped",
+      "base_view": "front",
+      "counts": {
+        "base_views": 2,
+        "project_views": 3,
+        "section_views": 0,
+        "definition_views": 1,
+        "total_dimensions": 26,
+        "annotated_views": 4
+      },
+      "views": [
+        {
+          "type": "base",
+          "x": 180.6,
+          "y": 186.3,
+          "dimensions": 13
+        },
+        {
+          "type": "project",
+          "x": 290.5,
+          "y": 186.3,
+          "dimensions": 4
+        },
+        {
+          "type": "project",
+          "x": 180.6,
+          "y": 254.3,
+          "dimensions": 6
+        },
+        {
+          "type": "base",
+          "x": 339.0,
+          "y": 245.2,
+          "dimensions": 0
+        },
+        {
+          "type": "project",
+          "x": 83.2,
+          "y": 186.3,
+          "dimensions": 3
+        }
+      ]
+    }
+  }
+}

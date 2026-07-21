@@ -1,0 +1,4 @@
+LIBRARY ZW3D_HTTP_Server.dll
+EXPORTS
+    ZW3D_HTTP_ServerInit
+    ZW3D_HTTP_ServerExit

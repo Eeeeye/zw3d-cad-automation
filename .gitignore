@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Windows / editor state
+Thumbs.db
+Desktop.ini
+.DS_Store
+.idea/
+.vscode/
+.vs/
+
+# Local agent/editor config
+.claude/
+.agents/
+.codex/
+
+# ZW3D and build outputs
+ZW3D_Bridge/bin/*.dll
+ZW3D_Bridge/*.obj
+ZW3D_Bridge/*.lib
+ZW3D_Bridge/*.exp
+*.obj
+*.lib
+*.exp
+*.dll
+
+# Generated artifacts and private working data
+output/
+tmp/
+dist/
+ZW3D_Agent/demo_*
+ZW3D_Agent/intrusion_*
+ZW3D_Agent/layout_*
+ZW3D_Agent/native_layout_*
+ZW3D_Agent/padding_*
+ZW3D_Agent/pmi_variant_*
+ZW3D_Agent/reference_verify_report.*
+ZW3D_Agent/visual_iteration_*
+*.zip
+*.pdf
+*.docx
+*.pptx
+*.png
+
+# Optional proprietary CAD samples
+samples/**/*.Z3PRT
+samples/**/*.Z3DRW
+samples/**/*.Z3ASM
+AI-ZW260403/
+*.Z3PRT
+*.Z3DRW
+*.Z3ASM
