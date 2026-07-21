@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-labelledby="title desc">
+  <title id="title">ZW3D automation bridge architecture</title>
+  <desc id="desc">Python agent communicates with a ZW3D C++ plugin over localhost HTTP, and the plugin calls the ZW3D API.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f8fafc; }
+      .box { fill: #ffffff; stroke: #334155; stroke-width: 2; rx: 10; }
+      .box2 { fill: #ecfeff; stroke: #0f766e; stroke-width: 2; rx: 10; }
+      .box3 { fill: #fff7ed; stroke: #c2410c; stroke-width: 2; rx: 10; }
+      .title { font: 700 22px Arial, sans-serif; fill: #0f172a; }
+      .label { font: 600 17px Arial, sans-serif; fill: #0f172a; }
+      .small { font: 14px Arial, sans-serif; fill: #475569; }
+      .arrow { stroke: #334155; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+      .tag { fill: #e2e8f0; rx: 8; }
+      .tagText { font: 13px Arial, sans-serif; fill: #334155; }
+    </style>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#334155"/>
+    </marker>
+  </defs>
+  <rect class="bg" width="960" height="360"/>
+  <text class="title" x="40" y="50">ZW3D CAD Automation Bridge</text>
+  <rect class="box" x="45" y="95" width="210" height="140"/>
+  <text class="label" x="75" y="135">Python Agent</text>
+  <text class="small" x="75" y="165">part analysis</text>
+  <text class="small" x="75" y="188">strategy selection</text>
+  <text class="small" x="75" y="211">quality loop</text>
+  <rect class="box2" x="365" y="95" width="230" height="140"/>
+  <text class="label" x="395" y="135">HTTP Bridge</text>
+  <text class="small" x="395" y="165">C++ DLL plugin</text>
+  <text class="small" x="395" y="188">localhost:8081</text>
+  <text class="small" x="395" y="211">JSON endpoints</text>
+  <rect class="box3" x="705" y="95" width="210" height="140"/>
+  <text class="label" x="735" y="135">ZW3D 2026</text>
+  <text class="small" x="735" y="165">native CAD API</text>
+  <text class="small" x="735" y="188">drawing views</text>
+  <text class="small" x="735" y="211">PMI dimensions</text>
+  <path class="arrow" d="M260 165 H355"/>
+  <path class="arrow" d="M600 165 H695"/>
+  <path class="arrow" d="M705 230 C610 295 350 295 255 230"/>
+  <rect class="tag" x="300" y="135" width="42" height="24"/>
+  <text class="tagText" x="309" y="152">HTTP</text>
+  <rect class="tag" x="632" y="135" width="44" height="24"/>
+  <text class="tagText" x="640" y="152">API</text>
+  <rect class="tag" x="385" y="282" width="190" height="26"/>
+  <text class="tagText" x="402" y="300">quality feedback loop</text>
+</svg>

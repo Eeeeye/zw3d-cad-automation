@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="300" viewBox="0 0 960 300" role="img" aria-labelledby="title desc">
+  <title id="title">Drafting agent quality loop</title>
+  <desc id="desc">The agent analyzes, generates, evaluates, corrects, and accepts a CAD drawing.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f8fafc; }
+      .node { fill: #ffffff; stroke: #334155; stroke-width: 2; rx: 10; }
+      .accept { fill: #f0fdf4; stroke: #15803d; stroke-width: 2; rx: 10; }
+      .label { font: 700 16px Arial, sans-serif; fill: #0f172a; }
+      .small { font: 13px Arial, sans-serif; fill: #475569; }
+      .arrow { stroke: #334155; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+      .loop { stroke: #0f766e; stroke-width: 3; stroke-dasharray: 8 6; fill: none; marker-end: url(#arrow2); }
+    </style>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#334155"/>
+    </marker>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#0f766e"/>
+    </marker>
+  </defs>
+  <rect class="bg" width="960" height="300"/>
+  <rect class="node" x="45" y="95" width="135" height="88"/>
+  <text class="label" x="78" y="127">Analyze</text>
+  <text class="small" x="70" y="154">bbox, profile,</text>
+  <text class="small" x="75" y="174">base view</text>
+  <rect class="node" x="225" y="95" width="135" height="88"/>
+  <text class="label" x="252" y="127">Generate</text>
+  <text class="small" x="254" y="154">views, paper,</text>
+  <text class="small" x="268" y="174">layout</text>
+  <rect class="node" x="405" y="95" width="135" height="88"/>
+  <text class="label" x="436" y="127">Evaluate</text>
+  <text class="small" x="433" y="154">score, rules,</text>
+  <text class="small" x="431" y="174">next action</text>
+  <rect class="node" x="585" y="95" width="135" height="88"/>
+  <text class="label" x="618" y="127">Correct</text>
+  <text class="small" x="616" y="154">PMI, scale,</text>
+  <text class="small" x="613" y="174">sections</text>
+  <rect class="accept" x="765" y="95" width="135" height="88"/>
+  <text class="label" x="806" y="127">Accept</text>
+  <text class="small" x="797" y="154">passed or</text>
+  <text class="small" x="781" y="174">warning state</text>
+  <path class="arrow" d="M183 139 H217"/>
+  <path class="arrow" d="M363 139 H397"/>
+  <path class="arrow" d="M543 139 H577"/>
+  <path class="arrow" d="M723 139 H757"/>
+  <path class="loop" d="M653 191 C610 245 335 245 292 191"/>
+</svg>

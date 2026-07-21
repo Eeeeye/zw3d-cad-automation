@@ -49,6 +49,7 @@ ZW3D_Agent/visual_iteration_*
 *.docx
 *.pptx
 *.png
+!assets/**/*.png
 
 # Optional proprietary CAD samples
 samples/**/*.Z3PRT

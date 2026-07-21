@@ -5,6 +5,13 @@
 *.cpp text eol=lf
 *.def text eol=lf
 *.json text eol=lf
+*.svg text eol=lf
+*.toml text eol=lf
+*.txt text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf
 
 *.Z3PRT binary
 *.Z3DRW binary
