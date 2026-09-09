@@ -166,7 +166,12 @@ ZW3D SDK/runtime.
 
 ## License
 
-Copyright (c) 2026 Huang Wenye. All rights reserved.
+Copyright (c) 2026 Huang Wenye.
 
-This repository is published as a portfolio artifact. See [LICENSE](LICENSE) for
-the current rights notice.
+The original code and documentation in this repository are licensed under the
+[MIT License](LICENSE).
+
+ZW3D, the ZW3D SDK/runtime, and other third-party components remain subject to
+their respective licenses and are not relicensed by this project. Obtain any
+required third-party licenses separately before building or running the ZW3D
+integration.
